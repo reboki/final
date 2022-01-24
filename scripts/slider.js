@@ -9,9 +9,9 @@ var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0
       ];
     } else {
       var responsiveImage = [//タブレットサイズ（768px）以下用の画像
-        { src: 'https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-3/img/img_sp_01.jpg' },
-        { src: 'https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-3/img/img_sp_02.jpg' },
-        { src: 'https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-3/img/img_sp_03.jpg' }
+        { src: 'images/slide1.png' },
+        { src: 'images/slide2.jpg' },
+        { src: 'images/slide3.jpg' }
       ];
     }
 
