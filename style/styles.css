@@ -54,6 +54,10 @@ a {
   line-height: 1.8;
 }
 
+h1 {
+  text-align: start;
+}
+
 #main-title {
   -webkit-font-feature-settings: 'palt';
           font-feature-settings: 'palt';
