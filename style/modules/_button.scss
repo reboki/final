@@ -1,0 +1,182 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.btn-wrap-pc-sp {
+  max-width: 435px;
+  margin: 0 auto 0;
+}
+
+a.btn-pc-sp {
+  line-height: 1.4;
+
+  width: 80.5%;
+  padding: 1.25rem 0;
+
+  color: #ffff;
+}
+
+a.btn--contact {
+  display: block;
+
+  padding: 1.5rem 0;
+
+  color: #fff;
+  background: #d20010;
+  -webkit-box-shadow: 0 5px 0 #b9000e;
+  box-shadow: 0 5px 0 #b9000e;
+}
+
+a.btn--contact i {
+  font-size: 2rem;
+}
+
+a.btn--contact i.fa-position-left {
+  font-size: 3rem;
+  
+  left: 2rem;
+}
+
+a.btn--contact :hover {
+  color: #fff;
+}
+
+a.btn--tel {
+  display: block;
+
+  margin-top: 15px;
+  padding: 1.5rem 0;
+
+  color: #fff;
+  background: #094;
+  -webkit-box-shadow: 0 5px 0 #008039;
+  box-shadow: 0 5px 0 #008039;
+}
+
+a.btn--tel i {
+  font-size: 2rem;
+}
+
+a.btn--tel i.fa-position-left {
+  font-size: 3rem;
+  left: 2rem;
+}
+
+a.btn--tel .number {
+  line-height: 1;
+
+  display: inline-block;
+
+  margin-top: 0.5rem;
+  padding: 0.25rem 2rem;
+
+  letter-spacing: 0;
+
+  color: #094;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+a.btn--tel:hover {
+  color: #fff;
+}
+
+.fa-position-left {
+  position: absolute;
+  top: calc(50% - 0.5em);
+  left: 1rem;
+}
+
+.fa-position-right {
+  position: absolute;
+  top: calc(50% - 0.5em);
+  right: 1rem;
+}
+
+a.btn-c:hover {
+  -webkit-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+
+  color: #fff;
+  background: #eb5b30;
+  -webkit-box-shadow: 0 2px 0 #d44114;
+  box-shadow: 0 2px 0 #d44114;
+}
+
+.btn-wrap-pc-sp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  /*テスト表示用*/
+  max-width: 435px;
+  margin: 0 auto 0;
+
+  -webkit-box-pack: justify;
+
+  -ms-flex-pack: justify;
+
+  justify-content: space-between;
+}
+
+a.btn-pc-sp {
+  line-height: 1.4;
+
+  width: 80.5%;
+  padding: 1.25rem 0;
+
+  color: #ffff;
+}
+
+a.btn-pc-sp--contact {
+  color: #fff;
+  background: #d20010;
+}
+
+a.btn-pc-sp--tel {
+  color: #fff;
+  background: #094;
+}
+
+.fa-position-right {
+  position: absolute;
+  top: calc(50% - 0.5em);
+  right: 1rem;
+}
+
+
+
+

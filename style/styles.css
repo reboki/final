@@ -7,6 +7,12 @@ Stylesheet: ベーススタイル
 body {
   margin: 0;
   font-family: "FOT-筑紫Aオールド明朝 Pr6 M", "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+  letter-spacing: 0.05em;
+  line-height: 2;
+  font-weight: 800;
+  font-size: 13px;
+  text-rendering: optimizeLegibility;
+  color: #333;
 }
 
 a {
@@ -19,10 +25,6 @@ a {
 }
 
 .menu-list {
-  display: none;
-}
-
-nav {
   display: none;
 }
 
@@ -40,6 +42,22 @@ nav {
           transform: translate(-90%, -70%);
   font-size: 25px;
   z-index: 2;
+}
+
+#main-title {
+  -webkit-font-feature-settings: 'palt';
+          font-feature-settings: 'palt';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.05em;
+}
+
+.concept {
+  margin: 0 auto;
+  width: 87vw;
 }
 
 @media (min-width: 480px) {
