@@ -149,6 +149,10 @@ h1 {
   margin-top: 200px;
 }
 
+.news > img {
+  width: 100%;
+}
+
 .news__title {
   margin-left: 3.5vw;
   position: absolute;
