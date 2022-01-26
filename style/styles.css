@@ -144,6 +144,10 @@ h1 {
   padding-top: 30px;
 }
 
+.about__btn {
+  margin-right: 20px;
+}
+
 .news {
   position: relative;
   margin-top: 200px;

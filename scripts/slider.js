@@ -9,9 +9,9 @@ var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0
       ];
     } else {
       var responsiveImage = [//タブレットサイズ（768px）以下用の画像
-        { src: 'images/slide4.jpg' },
-        { src: 'images/slide1.png' },
-        { src: 'images/slide2.jpg' }
+        { src: 'images/slide5.jpg' },
+        { src: 'images/slide6.png' },
+        { src: 'images/slide7.jpg' }
       ];
     }
 
