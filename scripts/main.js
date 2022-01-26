@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const hero = new HeroSlider('.swiper-container');
-    hero.start();
+
 
     const cb = function (el, inview) {
         if (inview) {
