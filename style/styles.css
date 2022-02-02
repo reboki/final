@@ -218,6 +218,8 @@
   right: 0;
   top: 100px;
   width: 300px;
+  color: white;
+  z-index: 999;
 }
 
 .mobile-menu__btn {
@@ -288,8 +290,8 @@
 }
 
 .menu-open #container {
-  -webkit-transform: translate(-300px, 60px);
-          transform: translate(-300px, 60px);
+  -webkit-transform: translate(-400px, 60px);
+          transform: translate(-400px, 60px);
 }
 
 .menu-open .mobile-menu__cover {
@@ -382,6 +384,10 @@ body {
   max-width: 1070px;
 }
 
+#global-container {
+  background-color: #76706a;
+}
+
 #container {
   -webkit-transition: -webkit-transform 0.5, -webkit-box-shadow 0.5s;
   transition: -webkit-transform 0.5, -webkit-box-shadow 0.5s;
@@ -389,6 +395,7 @@ body {
   transition: transform 0.5, box-shadow 0.5s, -webkit-transform 0.5, -webkit-box-shadow 0.5s;
   position: relative;
   z-index: 10;
+  background-color: white;
 }
 
 section {

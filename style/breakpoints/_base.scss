@@ -23,10 +23,15 @@ body{
     max-width: $contentMaxWidth;
 }
 
+#global-container{
+    background-color: #76706a;
+}
+
 #container {
     transition: transform 0.5, box-shadow 0.5s;
     position: relative;
     z-index: 10;
+    background-color: white;
 }
 
 section{
