@@ -219,7 +219,6 @@
   top: 100px;
   width: 300px;
   color: white;
-  z-index: 999;
 }
 
 .mobile-menu__btn {
@@ -259,6 +258,7 @@
   transition: opacity 1s;
   cursor: pointer;
   z-index: 200;
+  overflow: hidden;
 }
 
 .mobile-menu__main {
@@ -267,6 +267,7 @@
           perspective: 2000px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
+  overflow: hidden;
 }
 
 .mobile-menu__item {
