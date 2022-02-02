@@ -688,7 +688,7 @@ h1 {
 .contact {
   position: relative;
   z-index: 2;
-  margin-top: 6.25rem;
+  margin-top: 8.25rem;
   display: block;
 }
 
@@ -704,7 +704,7 @@ h1 {
 
 .contact__title {
   position: absolute;
-  top: -2.75rem;
+  top: -5.75rem;
   right: 6.4vw;
 }
 
