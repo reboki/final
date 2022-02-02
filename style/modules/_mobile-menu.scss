@@ -89,7 +89,9 @@ $cMenuOpen: $cBlack;
             }
         }
         &__btn {
+            z-index: 999;
             & > span {
+            
                 background-color: $cMenuOpen;
     
                 &:nth-child(1) {
@@ -156,7 +158,7 @@ $cMenuOpen: $cBlack;
     }
 
 .mobile-img{
-    padding-top: 50px;
+    padding-top: 70px;
     width: 100%;
     position: relative;
     bottom: 0;
