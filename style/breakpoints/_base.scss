@@ -532,7 +532,100 @@ h1{
 
 }
 
+.service1{
+    position: relative;
+    margin-top: 20px;
+    background-color: white;
 
+    &__title{
+        margin-left: 3.5vw;
+        position: absolute;
+        top: -40px;
+        left: 0;
+    }
+
+    &__wrap{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-right: 6.5vw;
+        padding-left: 6.5vw;
+    }
+
+    &__thumb{
+
+        & > img{
+            width: 100%;
+        }
+    }
+
+    &__cap{
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: "FOT-筑紫Aオールド明朝 Pr6 M", "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+        line-height: 1.4;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    &__text{
+        padding-top: 50px;
+
+    }
+
+    &__text3{
+        position: absolute;
+        top: 500px;
+        right: 70px;
+
+    }
+
+    &__space{
+        padding-top: 30px;
+    }
+
+    &__contents{
+        padding-right: 6.5vw;
+        padding-left: 6.5vw;
+
+        & > p{
+            margin-bottom: 10px;
+        }
+    }
+
+    &__subtitle{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+.service-header{
+    width: 100%;
+}
+
+.customization1{
+    width: 140px;
+    align-items: center;
+    margin-top: 10px;
+    background-color: black;
+    padding: 5px 3px 5px 3px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.customization2{
+    width: 215px;
+    align-items: center;
+    //margin-top: px;
+    background-color: black;
+    padding: 5px 3px 5px 3px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
 
 
 

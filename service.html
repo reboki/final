@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>6-1-3 ゆっくりズームアウトさせながら全画面で見せる</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" id="theme-font-css"
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond&amp;display&amp;family=Scheherazade:wght@400;700&family=Shippori+Mincho:wght@400;500;700&display=swap"
+        type="text/css" media="all">
+    <link rel="stylesheet" type="text/css"
+        href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-3/css/6-1-3.css">
+    <link rel="stylesheet" href="style/modules/slider.css" />
+    <link rel="stylesheet" href="style/styles.css" />
+
+</head>
+<div class="all">
+    <div class="border"></div>
+    <!--<header id=header>
+        <div>カワナ塗装</div>
+</div>
+<div class="menu-list">
+    <a href="https://syo-ei.com/rent/">ホーム<p class="enb">Rent</p></a>
+    <a href="https://syo-ei.com/rent/">会社概要<p class="enb">Rent</p></a>
+    <a href="https://syo-ei.com/rent/">施工の流れ<p class="enb">Rent</p></a>
+    <a href="https://syo-ei.com/rent/">施工事例<p class="enb">Rent</p></a>
+    <a href="https://syo-ei.com/rent/">弊社の特徴<p class="enb">Rent</p></a>
+    <a href="https://syo-ei.com/rent/">お問い合わせ<p class="enb">Rent</p></a>
+</div>
+<nav>
+    <div class="img_area">
+        <div class="link_area">
+            <a href="">ホーム</a>
+            <a href="">会社概要</a>
+            <a href="">施工の流れ</a>
+            <a href="">施工事例</a>
+            <a href="">弊社の特徴</a>
+            <a href="">お問い合わせ</a>
+        </div>
+        <div class="btn-area">
+
+        </div>
+    </div>
+</nav>
+<div class=""></div>
+</header> -->
+
+    <body>
+        <div id="global-container">
+            <div id="container">
+                <div class="mobile-menu__cover"></div>
+                <div class="nav-trigger"></div>
+                <header class="header">
+                    <div class="header__inner">
+                        <div class="logo">
+                            <img src="images/1639581919534 (1).jpg" alt="" class="logo__img">
+                            <div class="logo__title">
+                                <span class="logo__paint_1">“業界No.1を目指す”</span>
+                                <span class="logo__paint_2">カワナ塗装</span>
+                            </div>
+                        </div>
+                        <nav class="header__nav">
+                            <ul class="header__ul">
+                                <li class="header__li"><a href="index-2.html">ホーム</a></li>
+                                <li class="header__li"><a href="company__info.html">会社概要</a></li>
+                                <li class="header__li"><a href="contact.html">施工の流れ</a></li>
+                                <li class="header__li"><a href="example.html">施工事例</a></li>
+                                <li class="header__li"><a href="contact.html">弊社の特徴</a></li>
+                                <li class="header__li"><a href="contact.html">お問い合わせ</a></li>
+                            </ul>
+                        </nav>
+                        <button class="mobile-menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+
+                </header>
+                <img class="service-header" src="images/tester.jpg" alt="">
+                <section class="service1">
+                    <div class="service1__contents">
+                        <h2 class="service1__subtitle">高品質という価値。</h2>
+                        <p>
+                            長い間、一緒に寄り添ってきた私たちのお家。<br>
+                            だからこそより優しくより丁寧に、<br>
+                            塗り替えてあげる必要があります。
+
+                        </p>
+                        <p>
+                            塗替えは大きな決断だからこそ、
+                            高品質で長持ちする塗装を施し、<br>
+                            家族と一緒に人生を歩んでいける <br>
+                            そんな「お家」にしたい。</p>
+                        <p>
+                            カワナ塗装にしかできない確かな塗装で、<br>
+                            あなたのお家を、優しく、正しく守ります。
+                        </p>
+                    </div>
+                    <div class="service1__wrap">
+                        <div class="service1__inner">
+                            <div class="service1__item">
+                                <figure class="service1__thumb">
+                                    <img src="images/service6.jpg" alt="">
+                                </figure>
+                                <div class="service1__text3">
+                                    <div class="customization1">
+                                        <span class="service1__cap">正直をモットーに、</span> <br>
+                                    </div>
+                                    <div class="customization2">
+                                        <span class="service1__cap">お客様に真摯に向き合います</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="service1__text">30年にわたり、塗装業界にて技術を磨いてきたメンバーを筆頭に、丁寧でスピード感のある施工が実現可能です。</p>
+                        </div>
+
+                    </div>
+            </div>
+
+            </section>
+            <footer class="footer">
+                <div class="">
+                    <div class="footer__name">カワナ塗装</div>
+                    <div class="footer__add">〒369-0301 埼玉県児玉郡上里町金久保320-6</div>
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footer__ul">
+                        <li class="footer__li"><a href="index.html">ホーム</a></li>
+                        <li class="footer__li footer__space"><a href="about.html">会社概要</a></li>
+                        <li class="footer__li footer__space"><a href="specify.html">弊社の特徴</a></li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__li"><a href="example.html">施工事例</a></li>
+                        <li class="footer__li footer__space"><a href="flow.html">弊社の流れ</a></li>
+                        <li class="footer__li footer__space"><a
+                                href="https://tayori.com/form/22eb5ff81fc334a2d9d5faa3737e471417a03c2f/">問い合わせ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__copyright">
+                    &copy; kawana-tosou. All Rights Resevered.
+                </div>
+            </footer>
+        </div>
+        <nav class="mobile-menu">
+            <ul class="mobile-menu__main">
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="index.html">
+                        <span class="main-title_mobile">ホーム</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="company_info.html">
+                        <span class="main-title_mobile">会社概要</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="flow.html">
+                        <span class="main-title_mobile">施工の流れ</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="example.html">
+                        <span class="main-title_mobile">施工事例</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="strength.html">
+                        <span class="main-title_mobile">弊社の特徴</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link"
+                        href="https://tayori.com/form/22eb5ff81fc334a2d9d5faa3737e471417a03c2f/">
+                        <span class="main-title_mobile">お問い合わせ</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+</div>
+
+<script src="scripts/vendors/swiper.min.js"></script>
+<script src="scripts/vendors/TweenMax.min.js"></script>
+<script src="scripts/vendors/scroll-polyfill.js"></script>
+<script src="scripts/libs/scroll.js"></script>
+<script src="scripts/libs/text-animation.js"></script>
+<script src="scripts/libs/mobile-menu.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
+<script src="scripts/slider.js"></script>
+<script src="scripts/main.js"></script>
+
+</body>
+
+</html>
