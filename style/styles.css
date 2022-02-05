@@ -1010,6 +1010,18 @@ h1 {
   right: 70px;
 }
 
+.service1__text4 {
+  position: absolute;
+  top: 960px;
+  right: 85px;
+}
+
+.service1__text5 {
+  position: absolute;
+  top: 1325px;
+  right: 85px;
+}
+
 .service1__space {
   padding-top: 30px;
 }
@@ -1055,6 +1067,33 @@ h1 {
   text-align: center;
   align-items: center;
   margin-bottom: 5px;
+}
+
+.customization3 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  padding: 5px 3px 5px 3px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.width3 {
+  width: 200px;
+}
+
+.width4 {
+  width: 170px;
+}
+
+.width5 {
+  width: 200px;
+}
+
+.width6 {
+  width: 70px;
 }
 
 @media (min-width: 480px) {
