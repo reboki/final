@@ -415,7 +415,7 @@
 }
 
 .mobile-img {
-  padding-top: 70px;
+  padding-top: 80px;
   width: 100%;
   position: relative;
   bottom: 0;
@@ -447,7 +447,6 @@ body {
 
 #global-container {
   background-color: #76706a;
-  overflow-x: hidden;
 }
 
 #container {
@@ -643,6 +642,14 @@ h1 {
 
 .concept__title {
   margin-bottom: 10px;
+}
+
+.concept__main {
+  padding-top: 40px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 2.5;
+  font-weight: 900;
 }
 
 .service {
