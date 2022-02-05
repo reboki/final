@@ -1006,20 +1006,20 @@ h1 {
 
 .service1__text3 {
   position: absolute;
-  top: 500px;
-  right: 70px;
+  -webkit-transform: translate(5%, -50%);
+          transform: translate(5%, -50%);
 }
 
 .service1__text4 {
   position: absolute;
-  top: 960px;
-  right: 85px;
+  -webkit-transform: translate(5%, -50%);
+          transform: translate(5%, -50%);
 }
 
 .service1__text5 {
   position: absolute;
-  top: 1325px;
-  right: 85px;
+  -webkit-transform: translate(5%, -50%);
+          transform: translate(5%, -50%);
 }
 
 .service1__space {
@@ -1081,11 +1081,11 @@ h1 {
 }
 
 .width3 {
-  width: 200px;
+  width: 195px;
 }
 
 .width4 {
-  width: 170px;
+  width: 165px;
 }
 
 .width5 {
@@ -1093,7 +1093,7 @@ h1 {
 }
 
 .width6 {
-  width: 70px;
+  width: 65px;
 }
 
 @media (min-width: 480px) {
