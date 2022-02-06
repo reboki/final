@@ -1,7 +1,7 @@
 body {
     font-family: arial;
-    width: 100%;
-    height: 100%;
+  //  width: 100%;
+   // height: 100%;
     animation: bugfix infinite 1s;
     -webkit-animation: bugfix infinite 1s;
   }
@@ -85,12 +85,14 @@ body {
   }
   
   #overlay {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
-    background: #ec6451;
+    background-color: #76706a;
     z-index: 2;
     visibility: hidden;
     position: fixed;
+    right: 8px;
+    top: 0;
   }
   #overlay.active {
   
@@ -104,9 +106,10 @@ body {
     height: 100vh;
     padding-left: 0;
     list-style-type: none;
+    text-decoration: underline;
   }
   #overlay ul li {
-    padding: 1em;
+    padding: 1.25em;
   }
   #overlay ul li a {
     color: #fff;
