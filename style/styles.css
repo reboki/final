@@ -576,6 +576,7 @@ body {
           font-feature-settings: 'palt';
   text-rendering: optimizeLegibility;
   color: #333;
+  overflow-x: hidden;
 }
 
 .content-width, .header__inner {
