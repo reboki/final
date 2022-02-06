@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>6-1-3 ゆっくりズームアウトさせながら全画面で見せる</title>
+    <title>サービス</title>
 
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
@@ -21,42 +21,12 @@
     <link rel="stylesheet" href="style/styles.css" />
 
 </head>
-<div class="all">
-    <div class="border"></div>
-    <!--<header id=header>
-        <div>カワナ塗装</div>
-</div>
-<div class="menu-list">
-    <a href="https://syo-ei.com/rent/">ホーム<p class="enb">Rent</p></a>
-    <a href="https://syo-ei.com/rent/">会社概要<p class="enb">Rent</p></a>
-    <a href="https://syo-ei.com/rent/">施工の流れ<p class="enb">Rent</p></a>
-    <a href="https://syo-ei.com/rent/">施工事例<p class="enb">Rent</p></a>
-    <a href="https://syo-ei.com/rent/">弊社の特徴<p class="enb">Rent</p></a>
-    <a href="https://syo-ei.com/rent/">お問い合わせ<p class="enb">Rent</p></a>
-</div>
-<nav>
-    <div class="img_area">
-        <div class="link_area">
-            <a href="">ホーム</a>
-            <a href="">会社概要</a>
-            <a href="">施工の流れ</a>
-            <a href="">施工事例</a>
-            <a href="">弊社の特徴</a>
-            <a href="">お問い合わせ</a>
-        </div>
-        <div class="btn-area">
 
-        </div>
-    </div>
-</nav>
-<div class=""></div>
-</header> -->
+
+
 
     <body>
-        <div id="global-container">
-            <div id="container">
-                <div class="mobile-menu__cover"></div>
-                <div class="nav-trigger"></div>
+
                 <header class="header">
                     <div class="header__inner">
                         <div class="logo">
@@ -70,17 +40,28 @@
                             <ul class="header__ul">
                                 <li class="header__li"><a href="index-2.html">ホーム</a></li>
                                 <li class="header__li"><a href="company__info.html">会社概要</a></li>
-                                <li class="header__li"><a href="contact.html">施工の流れ</a></li>
+                                <li class="header__li"><a href="contact.html">施工のサイン</a></li>
                                 <li class="header__li"><a href="example.html">施工事例</a></li>
                                 <li class="header__li"><a href="contact.html">弊社の特徴</a></li>
                                 <li class="header__li"><a href="contact.html">お問い合わせ</a></li>
                             </ul>
                         </nav>
-                        <button class="mobile-menu__btn">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </button>
+                        <div>
+                            <input type="checkbox" id="overlay-input" />
+                            <label for="overlay-input" id="overlay-button"><span></span></label>
+                            <div id="overlay">
+                                <ul>
+                                    <li><a href="index.html">ホーム</a></li>
+                                    <li><a href="about.html">会社概要</a></li>
+                                    <li><a href="service.html">カワナ塗装について</a></li>
+                                    <li><a href="#">施工事例</a></li>
+                                    <li><a href="#">塗替えのサイン</a></li>
+                                    <li><a href="#">問い合わせ</a></li>
+                                    <img src="images/ham.png" alt="">
+                                </ul>
+            
+                            </div>
+                        </div>
                     </div>
 
                 </header>
@@ -189,43 +170,7 @@
                     &copy; kawana-tosou. All Rights Resevered.
                 </div>
             </footer>
-        </div>
-        <nav class="mobile-menu">
-            <ul class="mobile-menu__main">
-                <li class="mobile-menu__item">
-                    <a class="mobile-menu__link" href="index.html">
-                        <span class="main-title_mobile">ホーム</span>
-                    </a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a class="mobile-menu__link" href="company_info.html">
-                        <span class="main-title_mobile">会社概要</span>
-                    </a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a class="mobile-menu__link" href="flow.html">
-                        <span class="main-title_mobile">施工の流れ</span>
-                    </a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a class="mobile-menu__link" href="example.html">
-                        <span class="main-title_mobile">施工事例</span>
-                    </a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a class="mobile-menu__link" href="strength.html">
-                        <span class="main-title_mobile">弊社の特徴</span>
-                    </a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a class="mobile-menu__link"
-                        href="https://tayori.com/form/22eb5ff81fc334a2d9d5faa3737e471417a03c2f/">
-                        <span class="main-title_mobile">お問い合わせ</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-</div>
+
 
 <script src="scripts/vendors/swiper.min.js"></script>
 <script src="scripts/vendors/TweenMax.min.js"></script>
