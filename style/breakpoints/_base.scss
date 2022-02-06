@@ -328,6 +328,7 @@ h1{
 
     &__li{
         list-style: none;
+        padding-bottom: 8px;
     }
 
     &__btn{
@@ -719,6 +720,25 @@ h1{
     }
 }
 
+.info_style{
+    & > p{
+        margin-bottom: 0;
+
+    }
+}
+
+.company{
+    padding:20px;
+
+    &__about{
+        & > div{
+        padding-bottom: 10px;
+    }
+    
+    }
+
+    
+}
 
 
 

@@ -895,6 +895,7 @@ h1 {
 
 .news__li {
   list-style: none;
+  padding-bottom: 8px;
 }
 
 .news__btn {
@@ -1297,6 +1298,18 @@ h1 {
 
 .reference-image > img {
   width: 100%;
+}
+
+.info_style > p {
+  margin-bottom: 0;
+}
+
+.company {
+  padding: 20px;
+}
+
+.company__about > div {
+  padding-bottom: 10px;
 }
 
 @media (min-width: 480px) {
