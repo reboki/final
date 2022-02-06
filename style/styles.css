@@ -1130,7 +1130,7 @@ h1 {
 
 .service1__thumb > img {
   width: 100%;
-  height: 180px;
+  height: 100%;
 }
 
 .service1__cap {
