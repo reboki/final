@@ -556,7 +556,7 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
 }
 
 #overlay img {
-  padding-top: 335px;
+  padding-top: 383px;
   padding-left: 30px;
   position: absolute;
   z-index: 300;
