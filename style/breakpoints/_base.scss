@@ -570,8 +570,8 @@ h1{
     }
 
     &__text{
-        padding-top: 50px;
-        padding-bottom: 30px;
+        padding-top: 60px;
+        padding-bottom: 50px;
 
     }
 
@@ -594,7 +594,16 @@ h1{
     }
 
     &__space{
-        padding-top: 30px;
+        padding-top: 20px;
+    }
+
+    &__space1{
+        padding-top: 60px;
+    }
+
+    &__space3{
+        padding-top: 20px;
+        padding-bottom: 30px;
     }
 
     &__contents{
@@ -611,8 +620,15 @@ h1{
         margin-bottom: 10px;
     }
 
+    &__subtitle3{
+        border-bottom: dashed 1px #ccc;
+        font-size: 17px;
+    }
+
 
 }
+
+
 
 .service-header{
     width: 100%;
@@ -665,6 +681,26 @@ h1{
 .width6{
     width: 65px;
    }
+
+.width7{
+    width:150px;
+}
+
+.width8{
+    width:100px;
+}
+.width9{
+    width:140px;
+}
+.width10{
+    width:130px;
+}
+.width11{
+    width:125px;
+}
+.width12{
+    width:165px;
+}
 
 
 
