@@ -1146,6 +1146,8 @@ h1 {
 .service1__text {
   padding-top: 60px;
   padding-bottom: 50px;
+  padding-right: 6.5vw;
+  padding-left: 6.5vw;
 }
 
 .service1__text3 {
