@@ -242,10 +242,10 @@ h1{
     }
 
     &__thumb{
-
+        
         & > img{
             width: 100%;
-            height: 180px;
+           // height: 180px;
         }
     }
 
@@ -707,6 +707,14 @@ h1{
 }
 .width12{
     width:165px;
+}
+
+.reference-image{
+    display:flex ;
+    flex-direction: column;
+    & > img{
+        width: 100%;
+    }
 }
 
 
