@@ -1124,12 +1124,13 @@ h1 {
 .service1__wrap {
   padding-top: 40px;
   padding-bottom: 20px;
-  padding-right: 6.5vw;
-  padding-left: 6.5vw;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .service1__thumb > img {
   width: 100%;
+  height: 180px;
 }
 
 .service1__cap {
@@ -1176,6 +1177,8 @@ h1 {
 .service1__space3 {
   padding-top: 20px;
   padding-bottom: 30px;
+  padding-right: 6.5vw;
+  padding-left: 6.5vw;
 }
 
 .service1__contents {
@@ -1212,6 +1215,7 @@ h1 {
   text-align: center;
   align-items: center;
   margin-bottom: 2px;
+  letter-spacing: 0.1em;
 }
 
 .customization2 {
@@ -1224,6 +1228,7 @@ h1 {
   text-align: center;
   align-items: center;
   margin-bottom: 5px;
+  letter-spacing: 0.1em;
 }
 
 .customization3 {
@@ -1235,6 +1240,7 @@ h1 {
   text-align: center;
   align-items: center;
   margin-bottom: 5px;
+  letter-spacing: 0.1em;
 }
 
 .width3 {
@@ -1254,7 +1260,7 @@ h1 {
 }
 
 .width7 {
-  width: 150px;
+  width: 180px;
 }
 
 .width8 {
@@ -1266,7 +1272,7 @@ h1 {
 }
 
 .width10 {
-  width: 130px;
+  width: 250px;
 }
 
 .width11 {
