@@ -32,7 +32,7 @@ body {
     user-select: none;
   }
   #overlay-button span {
-    height: 4px;
+    height: 3px;
     width: 35px;
     border-radius: 2px;
     background-color: black;
@@ -48,7 +48,7 @@ body {
     top: 10px;
   }
   #overlay-button span:before, #overlay-button span:after {
-    height: 4px;
+    height: 3px;
     width: 35px;
     border-radius: 2px;
     background-color: black;
@@ -91,7 +91,7 @@ body {
     z-index: 2;
     visibility: hidden;
     position: fixed;
-    right: 8px;
+    right: 0px;
     top: 0;
   }
   #overlay.active {
@@ -99,23 +99,31 @@ body {
   }
   #overlay ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 60px;
+    //justify-content: center;
+   // align-items: center;
     flex-direction: column;
-    text-align: center;
+ //   text-align: center;
     height: 100vh;
     padding-left: 0;
     list-style-type: none;
-    text-decoration: underline;
   }
   #overlay ul li {
     padding: 1.25em;
+    margin-left: 20px;
   }
   #overlay ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1em;
   }
   #overlay ul li a:hover {
     color: #000!important;
+  }
+
+  #overlay img{
+    padding-top: 335px;
+    padding-left: 30px;
+    position: absolute;
+    z-index: 300;
   }

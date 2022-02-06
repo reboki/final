@@ -459,7 +459,7 @@ body {
 }
 
 #overlay-button span {
-  height: 4px;
+  height: 3px;
   width: 35px;
   border-radius: 2px;
   background-color: black;
@@ -479,7 +479,7 @@ body {
 }
 
 #overlay-button span:before, #overlay-button span:after {
-  height: 4px;
+  height: 3px;
   width: 35px;
   border-radius: 2px;
   background-color: black;
@@ -522,7 +522,7 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
   z-index: 2;
   visibility: hidden;
   position: fixed;
-  right: 8px;
+  right: 0px;
   top: 0;
 }
 
@@ -530,35 +530,36 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-top: 60px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
   height: 100vh;
   padding-left: 0;
   list-style-type: none;
-  text-decoration: underline;
 }
 
 #overlay ul li {
   padding: 1.25em;
+  margin-left: 20px;
 }
 
 #overlay ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 #overlay ul li a:hover {
   color: #000 !important;
+}
+
+#overlay img {
+  padding-top: 335px;
+  padding-left: 30px;
+  position: absolute;
+  z-index: 300;
 }
 
 /******************************************************************
