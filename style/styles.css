@@ -606,6 +606,25 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
           animation-duration: 1s;
 }
 
+#page-top a {
+  margin-bottom: 2rem;
+  background: grey;
+  color: #fff;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#page-top a:hover {
+  background: #777;
+}
+
 /******************************************************************
 
 Stylesheet: ベーススタイル
@@ -1104,7 +1123,7 @@ h1 {
 .footer__copyright {
   opacity: 0.4;
   font-size: 0.75rem;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 
 .footer > a {

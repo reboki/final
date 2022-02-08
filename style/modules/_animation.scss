@@ -21,3 +21,21 @@
     .change-time1{
         animation-duration: 1s;
       }
+
+      #page-top a{
+        margin-bottom: 2rem;
+        background: grey;
+        color:#fff;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        padding:20px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 0.8rem;
+        transition: all 0.3s;
+      }
+      
+      #page-top a:hover{
+        background: #777;
+      }
