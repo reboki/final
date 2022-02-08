@@ -566,8 +566,8 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
   -webkit-animation-name: fadeUpAnime;
           animation-name: fadeUpAnime;
   /*アニメーションの定義名*/
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
   /*アニメーション変化時間 ※デフォルト*/
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
