@@ -39,3 +39,22 @@
       #page-top a:hover{
         background: #777;
       }
+
+.slideright{
+  animation-name: rightAnime;/*アニメーションの定義名*/
+  animation-duration:2s;/*アニメーション変化時間 ※デフォルト*/
+  animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+  
+    @keyframes rightAnime{
+      from {
+        
+      transform: translateX(300px);
+      }
+    
+      to {
+        
+      transform: translateX(0);
+      }
+}
+    
+      }

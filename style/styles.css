@@ -625,6 +625,40 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
   background: #777;
 }
 
+.slideright {
+  -webkit-animation-name: rightAnime;
+          animation-name: rightAnime;
+  /*アニメーションの定義名*/
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  /*アニメーション変化時間 ※デフォルト*/
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  /*アニメーションの開始と終了時の状態を指定*/
+}
+
+@-webkit-keyframes rightAnime {
+  from {
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes rightAnime {
+  from {
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
 /******************************************************************
 
 Stylesheet: ベーススタイル
@@ -868,6 +902,7 @@ h1 {
   position: absolute;
   top: -40px;
   left: 0;
+  z-index: 40;
 }
 
 .service__wrap {
@@ -907,6 +942,7 @@ h1 {
   position: absolute;
   top: -90px;
   right: 0px;
+  z-index: 40;
 }
 
 .about__thumb {

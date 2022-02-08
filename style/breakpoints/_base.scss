@@ -232,6 +232,7 @@ h1{
         position: absolute;
         top: -40px;
         left: 0;
+        z-index: 40;
     }
 
     &__wrap{
@@ -278,6 +279,7 @@ h1{
         position: absolute;
         top: -90px;
         right: 0px;
+        z-index:40;
     }
 
     &__thumb{
@@ -545,6 +547,7 @@ h1{
         position: absolute;
         top: -40px;
         left: 0;
+        
     }
 
     &__wrap{
