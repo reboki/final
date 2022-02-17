@@ -839,22 +839,20 @@ a {
 }
 
 #title {
+  font-family: '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', 'MS P Gothic', Osaka, sans-serif;
   font-weight: bolder;
   color: white;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
   position: absolute;
   z-index: 2;
-  top: 50%;
+  top: 85%;
   left: 50%;
-  -webkit-transform: translate(-90%, -40%);
-          transform: translate(-90%, -40%);
-  font-size: 30px;
+  -webkit-transform: translate(-50%, -20%);
+          transform: translate(-50%, -20%);
+  font-size: 20px;
   z-index: 2;
-  text-align: start;
-  width: 200px;
+  text-align: center;
   height: 500px;
+  width: 500px;
   line-height: 1.8;
 }
 
@@ -884,8 +882,9 @@ h1 {
 }
 
 .concept__main {
+  font-family: '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', 'MS P Gothic', Osaka, sans-serif;
   padding-top: 40px;
-  font-size: 13.1px;
+  font-size: 12px;
   text-align: center;
   line-height: 2.5;
   font-weight: 900;
