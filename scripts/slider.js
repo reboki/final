@@ -11,7 +11,7 @@ var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0
       var responsiveImage = [//タブレットサイズ（768px）以下用の画像
         { src: 'images/slide5.jpg' },
         { src: 'images/slide6.jpg' },
-        { src: 'images/slide7.jpg' }
+        { src: 'images/slide8.jpg' }
       ];
     }
 

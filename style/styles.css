@@ -1422,6 +1422,31 @@ h1 {
   padding: 30px;
 }
 
+.homepagebtn {
+  margin: 100px 15px 30px 15px;
+}
+
+.homepagebtn__img {
+  margin: 0 0 0 0;
+  border: 1px solid black;
+}
+
+.homepagebtn__img > img {
+  width: 100%;
+  height: 140px;
+}
+
+.homepagebtn__cap {
+  font-family: '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', 'MS P Gothic', Osaka, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 10px;
+  font: bold;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
 @media (min-width: 480px) {
   /******************************************************************
 
