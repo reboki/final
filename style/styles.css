@@ -1250,6 +1250,12 @@ h1 {
   padding-left: 6.5vw;
 }
 
+.service1__text2 {
+  padding-bottom: 50px;
+  padding-right: 4.5vw;
+  padding-left: 4.5vw;
+}
+
 .service1__text3 {
   position: absolute;
   -webkit-transform: translate(5%, -50%);
@@ -1409,6 +1415,11 @@ h1 {
 
 .company__about > div {
   padding-bottom: 10px;
+}
+
+#sign-title {
+  text-align: center;
+  padding: 30px;
 }
 
 @media (min-width: 480px) {
